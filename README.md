@@ -1,10 +1,11 @@
 # Codelândia
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/67246528/124210971-c1828880-dac2-11eb-8234-439bae1c8bc5.gif" alt="Codelândia" title="Codelândia">
+	<img src="https://user-images.githubusercontent.com/67246528/128939253-644c2d30-f33c-4636-9050-c587c316f3f9.gif" alt="Codelândia" title="Codelândia">
 </p>
 
+
 ## Sobre   
-Este projeto foi desenvolvido para o primeiro desafio da comunidade **[Codelândia](https://discord.com/invite/QevDJqCzaY)**. O objetivo dele era **praticar Front-end**, então aproveitei e fiz também o **Back-end** da aplicação.
+Este projeto foi desenvolvido para o primeiro desafio da comunidade **[Codelândia](https://discord.com/invite/QevDJqCzaY)**. O objetivo dele era **praticar Front-end**, então para levar a aplicação ao próximo nível fiz também o **Back-end** da aplicação.
 
 ---
 
