@@ -1,0 +1,90 @@
+header {
+  width: 100%;
+  height: 26rem;
+  background: var(--linear);
+  font-family: 'Lexend Deca', sans-serif;
+
+  .text-header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 105rem;
+    width: 100%;
+    font-size: 2.7rem;
+    color: var(--text-header);
+
+    padding-top: 4rem;
+    padding-bottom: 6.5rem;
+
+    font-weight: 400;
+
+    .theme {
+      font-size: 2.4rem;
+      cursor: pointer;
+
+      color: var(--text-header);
+    }
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+      padding: 0 5rem;
+      max-width: 105rem;
+      width: 100%;
+      height: 7rem;
+      transform: translate(2.5rem, 0);
+
+      border: none;
+      border-radius: 0.5rem;
+
+      background: rgba(255, 255, 255, 0.2);
+      background-image: url(../assets/lupa.svg);
+      background-repeat: no-repeat;
+      background-position: 1rem, 1.6rem;
+
+      color: var(--white);
+      outline: none;
+
+      font-size: 1.5rem;
+      font-family: 'Lexend Deca', sans-serif;
+
+      &::placeholder {
+        color: var(--white);
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 1.7rem;
+
+        opacity: 50%;
+      }
+    }
+
+    .add-post {
+      transform: translate(5rem, -1rem);
+      padding: 0 2rem;
+      width: 5rem;
+      height: 5rem;
+
+      background: hsl(56, 100%, 57%);
+
+      border: none;
+      border-radius: 0.5rem;
+
+      cursor: pointer;
+
+      color: #313131;
+      outline: none;
+
+      font-size: 1.7rem;
+      font-family: 'Lexend Deca', sans-serif;
+
+      &:hover {
+        opacity: 85%;
+      }
+    }
+  }
+}

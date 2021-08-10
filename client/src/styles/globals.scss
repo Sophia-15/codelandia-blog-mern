@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lexend+Deca&display=swap');
+
+:root {
+  --blue: #3ea1db;
+  --span: #b6b6b6;
+  --blue-dark: #574ae8;
+  --heart: #574ae8;
+  --white: #fff;
+  --card: #fff;
+  --text-header: #fff;
+  --background: #f3f5f7;
+
+  --title: #313131;
+  --text: #b6b6b6;
+
+  --linear: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--background);
+}
+
+/*SCROLL BAR STYLE*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3321ff;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue-dark);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 58%;
+  }
+
+  header {
+    height: 235px;
+  }
+
+  .search-bar input {
+    width: 70rem;
+    height: 60px;
+
+    background-size: 3rem;
+    background-position: 13px 15px;
+  }
+
+  .text-header {
+    width: 70rem;
+
+    padding-bottom: 65px;
+  }
+
+  .news {
+    width: 70rem;
+  }
+
+  .news:first-child {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 482px) and (max-width: 767px) {
+  html {
+    font-size: 58%;
+  }
+
+  header {
+    height: 220px;
+  }
+
+  .search-bar input {
+    width: 47rem;
+    height: 50px;
+
+    background-size: 2.8rem;
+    background-position: 15px 12px;
+  }
+
+  .text-header {
+    width: 47rem;
+
+    padding-bottom: 60px;
+  }
+
+  .news {
+    width: 47rem;
+  }
+
+  .news:first-child {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 481px) {
+  html {
+    font-size: 55%;
+  }
+
+  header {
+    height: 190px;
+  }
+
+  .search-bar input {
+    width: 32rem;
+    height: 40px;
+
+    background-size: 2.5rem;
+    background-position: 15px 9.5px;
+  }
+
+  .text-header {
+    width: 32rem;
+
+    padding-bottom: 50px;
+  }
+
+  .news {
+    width: 32rem;
+  }
+
+  .news:first-child {
+    margin-top: 45px;
+  }
+}
